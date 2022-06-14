@@ -1,7 +1,11 @@
 .someClass {
-
 }
 
 .error {
     border: 1px solid red;
+}
+
+.errorFont {
+    color: red;
+    font-weight: 900;
 }
