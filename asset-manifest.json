@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ignat-homeworks/static/css/main.cc5d8ef0.css",
-    "main.js": "/ignat-homeworks/static/js/main.a05f870b.js",
+    "main.css": "/ignat-homeworks/static/css/main.255bf493.css",
+    "main.js": "/ignat-homeworks/static/js/main.555060f7.js",
     "static/js/787.66cb4309.chunk.js": "/ignat-homeworks/static/js/787.66cb4309.chunk.js",
     "static/media/avatar.png": "/ignat-homeworks/static/media/avatar.d947cb9d0d13765666b6.png",
     "static/media/checked.svg": "/ignat-homeworks/static/media/checked.0b6a1bcf5d417ff0a947.svg",
     "index.html": "/ignat-homeworks/index.html",
-    "main.cc5d8ef0.css.map": "/ignat-homeworks/static/css/main.cc5d8ef0.css.map",
-    "main.a05f870b.js.map": "/ignat-homeworks/static/js/main.a05f870b.js.map",
+    "main.255bf493.css.map": "/ignat-homeworks/static/css/main.255bf493.css.map",
+    "main.555060f7.js.map": "/ignat-homeworks/static/js/main.555060f7.js.map",
     "787.66cb4309.chunk.js.map": "/ignat-homeworks/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc5d8ef0.css",
-    "static/js/main.a05f870b.js"
+    "static/css/main.255bf493.css",
+    "static/js/main.555060f7.js"
   ]
 }
