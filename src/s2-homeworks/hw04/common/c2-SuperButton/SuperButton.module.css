@@ -8,12 +8,7 @@
     font-size: 14px;
     font-weight: 500;
     min-width: 150px;
-}
-
-.disabled {
-    background-color: #004D99;
-    opacity: 50%;
-    color: #002E5C;
+    cursor: pointer;
 }
 
 .secondary {
@@ -29,7 +24,12 @@
 .red {
     background-color: #B21232;
 }
-
+.disabled {
+    background-color: #004D99;
+    opacity: 50%;
+    color: #002E5C;
+    cursor: auto;
+}
 .default:hover {
 }
 
