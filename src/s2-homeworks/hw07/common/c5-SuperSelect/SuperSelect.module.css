@@ -1,9 +1,30 @@
-.select {
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
 }
 
+select::-ms-expand {
+    display: none;
+}
+
+.select {
+    width: 165px;
+    height: 24px;
+    outline: none;
+    border: 1px solid #C2C2C2;
+    border-radius: 2px;
+
+    background: url("chevron-down.svg") no-repeat right;
+}
+
+
+
 .select:focus {
+
+
 }
 
 
 .option:hover {
+
 }
