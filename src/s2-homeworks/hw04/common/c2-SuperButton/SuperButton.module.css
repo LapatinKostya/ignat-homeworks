@@ -4,7 +4,7 @@
     border-radius: 3px;
     font-size: 14px;
     padding: 8px 24px;
-    min-width: 130px;
+    min-width: 116px;
     cursor: pointer;
     font-weight: 600;
 }
@@ -20,7 +20,7 @@
     background-color: #FFFFFF;
     color: #0066CC;
     border: 1px solid #0066CC;
-    min-width: 175px;
+    min-width: 116px;
 }
 
 .default {
@@ -32,13 +32,11 @@
 }
 
 .default:hover {
-    min-width: 175px;
     background-color: #0080FF;
 
 }
 
 .red:hover {
-    min-width: 175px;
     background-color: #FF1A47;
 }
 
