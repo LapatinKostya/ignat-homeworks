@@ -1,11 +1,11 @@
 .sidebar {
-    position: fixed;
+    position: absolute;
     top: 0;
-    left: -400px;
+    left: -4000px;
     background-color: #FFFFFF;
     z-index: 2;
     height: 100vh;
-    width: 317px;
+    width: 30vh;
     display: flex;
     flex-direction: column;
     padding: 22px 30px 0 60px;
@@ -14,7 +14,9 @@
     left: 0;
 }
 .background {
-    position: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100vw;
     height: 100vh;
     background-color: black;
@@ -52,7 +54,4 @@
 }
 
 .close img {
-}
-.flex{
-    display: flex;
 }
