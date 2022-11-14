@@ -1,15 +1,27 @@
 .radio {
+    position: relative;
+    z-index: -20;
 }
 
 .radio::before {
+    content: url("CheckBox.svg");
+    position: absolute;
+    left: -20px;
+    top: -3px;
 }
 
 
 .radio:checked::before {
+    content: url("CheckBoxChecked.svg");
 }
 
 .label {
+    margin-bottom: 20px;
 }
 
 .options {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    position: relative;
 }
