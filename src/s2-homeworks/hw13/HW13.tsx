@@ -33,7 +33,7 @@ const HW13 = () => {
 
         axios
             .post(url, {success: x})
-            .then((res) => {
+            .then(() => {
                 setCode('Код 200!')
                 setImage(success200)
                 setText('...всё ок)')
@@ -44,7 +44,7 @@ const HW13 = () => {
                 if (e.response.status === 500) {
                     setCode('Ошибка 500!')
                     setImage(error500)
-                    setText('имитация ошибки на сервере')
+                    setText('эмитация ошибки на сервере')
                     setInfo('ошибка 500 - обычно означает что что-то сломалось на сервере, например база данных)')
                 } else if (e.response.status === 400) {
                     setCode('Ошибка 400!')
@@ -71,8 +71,6 @@ const HW13 = () => {
                         onClick={send(true)}
                         xType={'secondary'}
                         disabled={info === '...loading'}
-                        // дописать
-
                     >
                         Send true
                     </SuperButton>
@@ -81,8 +79,6 @@ const HW13 = () => {
                         onClick={send(false)}
                         xType={'secondary'}
                         disabled={info === '...loading'}
-                        // дописать
-
                     >
                         Send false
                     </SuperButton>
@@ -91,8 +87,6 @@ const HW13 = () => {
                         onClick={send(undefined)}
                         xType={'secondary'}
                         disabled={info === '...loading'}
-                        // дописать
-
                     >
                         Send undefined
                     </SuperButton>
@@ -101,7 +95,6 @@ const HW13 = () => {
                         onClick={send(null)} // имитация запроса на не корректный адрес
                         xType={'secondary'}
                         disabled={info === '...loading'}
-                        // дописать
                     >
                         Send null
                     </SuperButton>
