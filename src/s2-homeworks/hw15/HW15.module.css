@@ -1,6 +1,5 @@
 .tech {
     width: 50vw;
-
 }
 
 .developer {
@@ -16,9 +15,7 @@
 }
 
 .row {
-    background-color: #00cc22;
     display: flex;
-    border-bottom: 2px solid red;
 }
 
 .rowHeader {
